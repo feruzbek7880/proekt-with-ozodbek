@@ -1,0 +1,365 @@
+.footer-background-image{
+    width: 100%;
+    height: 500px;
+    background-image: url("../foto/footer-backgorund-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    color: white;
+}
+.footer-background-image-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-background-image-text-title{
+    color: white;
+    height: 130px;
+    align-items: flex-end;
+    font-size: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.footer-background-image-text-title2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 50px;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.footer-background-image-text-buttons{
+    margin-top: 90px;
+    width: 27%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+}
+.footer-background-image-text-buttons p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.footer-background-image-text-buttons button{
+    padding: 15px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-button1{
+    background-color: #1d1d1f;
+    font-family: Dubai Medium;
+    letter-spacing: 1.5px;
+    font-size: 15.5px;
+}
+.footer-button2{
+    background-color: white;
+    font-family: Dubai Medium;
+    letter-spacing: 1.5px;
+    font-size: 15.7px;
+}
+.F-B-T-L1{
+    text-decoration: none;
+    color: #ffffff;
+}
+.F-B-T-L2{
+    text-decoration: none;
+    color: #252527;
+}
+.footer-button2:hover .F-B-T-L2{
+    color: #ffffff;
+}
+
+.footer-background-image-text-buttons button:hover{
+    transition: 0.5s;
+    color: #ffffff;
+    background-color: #f5421c;
+}
+
+
+
+/* ------------------------------------------------ |*
+    footer - title, text, button, inputs...
+|* ------------------------------------ */
+
+
+
+/*---- footer-bottom section/ text ------*/
+.footer-main-row{
+    border: 0.2px solid #131313fa;
+}
+
+.footer-menu-about{
+    width: 100%;
+    height: 640px;
+    background: #0f0f0ffa;
+}
+
+.footer-bottom-row{
+    height: 400px;
+    margin-top: 70px;
+    border-bottom: 1px solid rgb(48, 48, 48);
+
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    font-family: Arial Rounded MT;
+}
+
+
+/* ------------------------------------ */
+.footer-bottom-row ul li{
+    width: 50%;
+    list-style: none;
+    text-decoration-line: none;
+    float: left;
+    margin-top: 12px;
+}
+
+.footer-bottom-row ul li a{
+    color: #999999ec;
+    text-decoration-line: none;
+}
+
+.footer-bottom-row ul li a:hover{
+    color: #ffffff;
+    position: relative;
+    transition: all 0.7s;
+    left: 15px;
+}
+
+
+/*------- footer/ 1-column -------*/
+.footer-col1{
+    width: 290px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-menu-aside{
+    width: 280px;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Beverley{
+    color: rgb(86, 86, 86);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-envelope, .fa-phone{
+    color: rgb(86, 86, 86);
+}
+
+.footer-email{
+    color: rgb(136, 136, 136);
+    font-style: normal;
+}
+.footer-email:hover{
+    color: #ffffff;
+}
+.fa-phone:hover{
+    color: #ffffff;
+}
+
+
+/*-------- footer/ 2-column -------*/
+.footer-col2{
+    width: 270px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.footer-cols-title2{
+    margin-bottom: 7px;
+    float: left;
+}
+
+/* ---------------- */
+.footer-red-kv{
+    display: flex; 
+    margin-top: 4px;
+
+}
+.footer-redLine1{
+    width: 14px;
+    height: 12px;
+    background: rgba(103, 0, 0, 0.793);
+    float: left;
+    margin-top: 3px;
+}
+.footer-redLine2{
+    width: 14px;
+    height: 12px;
+    background: rgba(183, 0, 0, 0.947);
+    float: left;
+    margin-top: 3px;
+}
+/* ---------------- */
+
+.data-may{
+    font-size: 12px;
+    color: rgb(103, 103, 103);
+}
+
+.footer-show-text{
+    color: #999999ec;
+    text-decoration-line: none; 
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.footer-show-text:hover{
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.footer-col2-aside{
+    height: 130px;
+    margin-top: 8px;
+    padding-top: 27px;
+    border-top: 1px solid rgb(48, 48, 48);
+}
+
+
+/*-------- footer/ 3-column -------*/
+.footer-col3{
+    width: 240px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-cols-title3{
+    margin-bottom: 8px;
+}
+
+
+/*-------- footer/ 4-column --------*/
+.footer-col4{
+    width: 250px;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.footer-cols-title4{
+    margin-bottom: 55px;
+}
+
+.footer-input{
+    width: 280px;
+    height: 55px;
+    font-size: 17px;
+    font-family: Arial, Helvetica;
+    padding-left: 17px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#footer-input-btn{
+    width: 130px;
+    height: 55px;
+    background: #24282b;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-family: Arial Rounded MT;
+    line-height: 55px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+#footer-input-btn:hover{
+    background: #2e2f2e;
+    border: 2px solid rgb(59, 255, 29);
+}
+
+
+
+/* -------------------------------------- |*
+    footer - networks...
+|* ------------------------------------ */
+
+
+.footer-networks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-icons{
+    width: 15%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.fa-twitter{
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+.fa-facebook-f{
+    color: #005c95e2;
+    text-decoration: none;
+
+}
+
+.fa-youtube{
+    color: #f21d1d;
+    text-decoration-line: none;
+
+}
+
+.fa-instagram{
+    color: #ff0062;
+    text-decoration-line: none;
+
+}
+
+.fa-telegram{
+    color: #007ac6d9;
+
+}
+
+.fa-brands:hover{
+    font-size: 27px;
+    transition: all 0.2s;
+    color: #ffffff;
+}
+
+.footer-administration{
+    color: rgb(86, 86, 86);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.footer-admin-ssilka{
+    color: lavender;
+    text-decoration: none;
+}
+.footer-admin-ssilka:hover{
+    color: rgb(255, 123, 0);
+}
+

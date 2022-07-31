@@ -1,0 +1,33 @@
+.karusel img{
+    position: absolute;
+    transition: 1s;
+}
+#p1{
+    top: 0;
+}
+#p2{
+    top: 700px;
+}
+#p3{
+    top: 1400px;
+}
+.karusel{
+    position: absolute;
+    top: 0;
+    width: 1920px;
+    height: 700px;
+    overflow: hidden;
+    z-index: 2;
+}
+.button {
+    position: absolute;
+    top: 700px;
+    width: 100px;
+        border: 2px solid rgb(70, 29, 255);
+        height: 50px;
+    background-color: green;
+}
+.karusel_container{
+    position: static;
+    height: 699px;
+}

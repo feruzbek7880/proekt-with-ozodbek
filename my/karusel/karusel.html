@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>karusel</title>
+    <style>
+        *{
+        padding: 0;
+            margin: 0;
+        }
+        img{
+            position: absolute;
+            transition: 1s;
+        }
+        #p1{
+            top: 0;
+        }
+        #p2{
+            top: 600px;
+        }
+        #p3{
+            top: 1200px;
+        }
+        .karusel{
+            position: absolute;
+            top: 0;
+            width: 1920px;
+            height: 600px;
+            overflow: hidden;
+        }
+        button {
+            position: absolute;
+            top: 700px;
+            width: 100px;
+            height: 50px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="karusel">
+    <img src="karusel_images/pic1.jpg" alt="rasm1" id="p1">
+    <img src="karusel_images/pic2.jpg" alt="rasm1" id="p2">
+    <img src="karusel_images/pic3.jpg" alt="rasm1" id="p3">
+</div> <!---karusel--->
+<button onclick="next()">Keyingisi</button>
+</div>
+
+<script>
+    let p1 = document.getElementById('p1')
+    let p2 = document.getElementById('p2')
+    let p3 = document.getElementById('p3')
+    let son = 0
+    function next(){
+        son++
+        if (son === 1){
+            p1.style.top = -600+'px'
+            p2.style.top =   0
+            p3.style.top = 600+'px'
+        }
+        if (son === 2){
+            p1.style.top = -1200+'px'
+            p2.style.top =   -600+'px'
+            p3.style.top = 0
+        }
+        if (son === 3){
+            son = 0
+        }
+        if (son === 0){
+            p1.style.top = 0
+            p2.style.top =   600+'px'
+            p3.style.top = 1200+'px'
+        }
+
+        // p1.style.top = -600+'px'
+        // p2.style.top =   0
+        // p3.style.top = 600+'px'
+        console.log(son)
+    }
+</script>
+</body>
+</html>

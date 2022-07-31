@@ -1,0 +1,144 @@
+@media screen and (min-width: 901px) and (max-width: 1500px){
+    .container{
+        width: 100%;
+        border: 2px solid rgb(255, 0, 0);
+
+    }
+    .envato{
+        width: 99%;
+        height: 30px;
+        padding-right: 30px;
+
+        justify-content: space-between;
+    }
+    .envato_logo{
+        font-size: 20px;
+        margin-left: 3%;
+    }
+
+/* ------------------------------------------------------------------------------------------------ */
+
+    #search_header{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+
+    }
+    .search_menu{
+        width: 45%;
+
+    }
+    .karusel{
+        width: 100%;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .why_choose_us{
+        top: 550px;
+        right: 100px;
+       
+    }
+    .triangle-down {
+        margin-top: 20%;
+    }
+    .smartfix_row{
+        height: 427px;
+
+    }
+    .smartfix_row_textside{
+        width: 39%;
+        height: 350px;
+        margin-left: 8%;
+    }
+/* -------------------------------------------------------------------- */
+
+@media screen and (min-width: 902px) and (max-width: 1370px){
+    .smartfix_row{
+        height: 750px;
+        background-size: 1920px 100%;
+
+    }
+    .smartfix_row_textside{
+        width: 80%;
+        margin-top: 410px;
+        margin-left: 100px;
+        
+    }
+    .why_choose_us_row{
+        width: 70%;
+        margin-left: 70px;
+    }
+    .why_choose_us{
+        width: 65%;
+        top: 550px;
+        right: 100px;
+    }
+    .triangle-down {
+        margin-top: 14%;
+    }
+    .btn_next{
+        margin-left: 56%;
+
+    }
+}
+/* ------------------------------------------------------------- */
+ 
+    .repair_within{
+        width: 100%;
+        height: 160px;
+    }
+/* ------------------------------------------------------------- */
+
+    .select_device{
+        width: 100%;
+    }
+    .select_device_devices{
+        width: 100%;
+        height: 520px;
+    }
+    .select_device_card{
+        width: 25%;
+        height: 431px;
+    }
+    .select_device_cards{
+        width: 88%;
+    }
+    .select_device_modules{
+        height: auto;
+    }
+/* ------------------------------------------------------------- */
+
+    .our_services_card{
+        height: auto;
+    }
+/* ------------------------------------------------------------- */
+
+    .smartfix_news_cards{
+        /* border: solid rgb(0, 255, 0); */
+        width: 85%;
+    }
+
+
+/* ------------------------------------------------------------- */
+
+    .founders_row{
+        width: 95%;
+    }
+    #founder_row_card1{
+        left:60px;
+    }
+    #founder_row_card2{
+        left: 760px;
+    }
+    #founder_row_card3{
+         left: 1500px;
+    }
+
+
+
+
+/* ------------------------------------------------------------- */
+
+
+
+}

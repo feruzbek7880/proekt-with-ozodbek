@@ -1,0 +1,159 @@
+.select_device{
+    font-family: "Anek Latin";
+    width: 100%;
+    height: 732px;
+    border: solid 1px rgba(0,0,0,0%);
+}
+.select_device_row{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgba(0,0,0,0%);
+}
+.select_device_title{
+    width: 10%;
+    display: inline-block;
+    font-size: 14px;
+    color: #f5421c;
+}
+#select_device_title_get{
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+}
+.select_device_devices{
+    display: flex;
+    justify-content: space-around;
+}
+.select_device_card{
+    width: 15.7%;
+    height: 431px;
+}
+.select_device_card p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.select_device_card_img{
+    width: 100%;
+    height: 156px;
+    background-image: url('select-device-images/select-device-pic1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 156px;
+}
+.select_device_card_text{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.select_device_cards{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*INTERNET  CODES*/
+.select_device_card_button{
+    z-index: 6;
+    color: white;
+    border: solid 1px rgba(0,0,0,0%);
+    background-color: #252625;
+    width: 230px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.select_device_card_button a{
+    display: block;
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    font-family: "Anek Latin";
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.select_device_card_button a span{
+    position: relative;
+    z-index: 2;
+}
+
+.select_device_card_button a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f5421c;
+    transition: all .35s;
+}
+
+.select_device_card_button a:hover{
+    color: #fff;
+}
+
+.select_device_card_button a:hover:after{
+    width: 100%;
+}
+/*INTERBET CODES*/
+
+
+
+
+
+
+/*MODULES LIST STYLESHEET */
+.select_device_modules{
+    width: 16%;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.select_device_modules_list li{
+    color: black;
+    font-weight: bold;
+    height: 67px;
+    display: flex;
+    cursor: pointer;
+    border: solid 1px rgba(0,0,0,0%);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    border-bottom-color: #aba9ab ;
+    transition: 0.2s;
+}
+.select_device_modules_list li:hover{
+    color: #f5421c;
+    transition: 0.2s;
+}
+.select_device_modules_list li i{
+    font-size: 24px;
+    margin-right: 10px;
+    color: black;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.select_device_modules_list li:hover i{
+    color: #f5421c;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*MODULES LIST STYLESHEET */
+
+
+
+
+
+
+

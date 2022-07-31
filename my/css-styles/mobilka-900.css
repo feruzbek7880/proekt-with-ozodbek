@@ -1,0 +1,491 @@
+@media screen and (min-width: 501px) and (max-width: 900px){
+    .container{
+        width: 100%;
+        border: 3px solid rgb(255, 29, 29);
+
+    }
+    .envato{
+        width: 94.5%;
+        height: 30px;
+        padding-right: 30px;
+
+        justify-content: space-between;
+    }
+    .envato_logo{
+        font-size: 20px;                   
+        margin-left: 4%;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .header_menu{
+        width: 99%;
+        height: 60px;
+        
+        position: absolute;
+        justify-content: space-between;
+        top: 40px;
+    }
+    .karusel_with_text{
+        display: none;
+    }
+    #resp_bars{
+        display: block;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-right: 45px;
+    }
+    .header_menu_menues{
+        display: none;
+    }
+    #search_header , #search_slide_item{
+        position: static;
+        display: none;
+    }
+    .karusel{
+        z-index: 0;
+        position: static;
+        width: 100%;
+        border-bottom: 0.5px solid #383838;
+        height: 380px;
+        background-image: url("../karusel/karusel_images/responsive-karusel-pic1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%  380px;
+    }
+    .karusel img{
+        display: none;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .karusel_container{
+        height: 100%;
+        z-index: 0;
+        /*margin-top: 100px;*/
+    }
+    .smartfix_row{
+        z-index: 0;
+        width: 100%;
+        height: 870px;
+        background-size: 100% 900px;
+
+        display: flex;
+        justify-content: start;
+        border: none;
+    }
+    .smartfix_row_textside{
+        width: 90%;
+        height: 37%;
+        margin-top: 0 ;
+        margin-left: 40px;
+        padding-top: 25px;
+    }
+    .smartfix_wwa_link{
+        width: 120px;
+        height: 20px;
+        font-size: 17px;
+        text-align: center;
+        border-right: 2px solid #ababab;
+        border-left: 2px solid #ababab;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .btn_next{
+        display: none;
+    }
+    .why_choose_us{
+        width: 90%;
+        position: absolute;
+        top: 730px;
+        left: 40px;
+
+        display: flex;
+    }
+    .why_choose_us_row{
+        width: 77%;
+        height: 435px;
+        z-index: 1;
+        margin-left: 5%;
+    }
+
+    .triangle-down{
+        position: absolute;
+        left: 17%;
+        top: 47%;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .repair_within{
+        width: 95%;
+        height: 400px;
+        padding-left: 5%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .repair_within_menu{
+        width: 95%;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .repair_within_menu1{
+        width: 97%;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .select_device{
+        width: 100%;
+        height: 2100px;
+    }
+    .select_device_title{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    #select_device_title_get{
+        width: 500px;
+    }
+    .select_device_cards{
+        width: 67%;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+    }
+    .select_device_card{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .select_device_card_img{
+        width: 520px;
+        height: 380px;
+        background-size: 520px 390px;
+    }
+    .select_device_card_text{
+        width: 400px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .select_device_card_title{
+        text-align: left;
+    }
+    .select_device_modules{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .select_device_modules_list li{
+        width: 440px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .select_device_modules_list{
+        font-size: 20px;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .our_services{
+        width: 100%;
+        height: 740px;
+        background-size: 100% 740px;
+    }
+    .our_services_cards{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .our_services_card{
+        width: 94%;
+        margin-bottom: 20px;
+    }
+    .our_services_card_img1 , .our_services_card_img2{
+        width: 130px;
+        height: 170px;
+        background-size: 130px 170px;
+    }
+    .our_services_card_text{
+        font-size: 18.4px;
+    }
+    .our_services_card_text_link{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .our_solution{
+        width: 100%;
+        height: 760px;
+        background-size: 100% 760px;
+    }
+    .our_solution_phoneimg , .our_solution_phone_pluses , .our_solution_container2{
+        display: none;
+    }
+    .our_solution_containers{
+        width: 90%;
+        margin-left: 40px;
+        display: flex;
+        justify-content: left;
+    }
+    .our_solution_container1{
+        width: 2000%;
+        height: 400px;
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    .our_solution_text{
+        height: 200px;
+        width: 90%;
+    }
+    .our_solution_lower i{
+        display: none;
+    }
+    .our_solution_lower{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center ;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .smartfix_news{
+        width: 100%;
+        height: 2300px;
+    }
+    .smartfix_news_cards{
+        width: 75%;
+        height: 2170px;        
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .smartfix_news_card{
+        width: 95%;
+        margin-bottom: 30px;
+    }
+    .smartfix_news_card_image{
+        height: 260px;
+        background-size: 100% 260px;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+    .have_questions{
+        width: 100%;
+        height: 900px;
+        background-size: 100% 1000px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../have-questions/images/have-question-res-back.png");
+    }
+    .have_questions_question{
+        width: 66%; 
+        font-size: 28px;
+    }
+    .have_questions_title{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .have_questions_button{
+        width: 260px;
+        text-align: center;
+        margin-top: 60px;
+        color: black;
+        background-color: #c1c1c1;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+    .founders{
+        width: 100%;
+        height: 1100px;
+        background-image: url("/him/founders/founder_images/founders-back.png");
+        background-size: 100% 1100px ;
+    }
+    .founders_row{
+        position: static;
+        width: 70%;
+        height: 60%;
+        overflow: visible;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .founder_row_button{
+        display: none;
+    }
+    .founder_row_card{
+        position: static;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 14%;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+    .education-card{
+        /* border: 1px solid rgb(0, 255, 4); */
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .education-business{
+        height: 1260px;
+    }
+    .partners , .partners-logo , .partners-images{
+        opacity: 0;
+    }
+    .bussines-icon{
+        display: none;
+    }
+    .bussines-text{
+        width: 80%;
+        font-size: 1.8rem;
+
+    }
+    .bussines-education{
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .education-col1, .education-col2, .education-col3{
+        width: 90%;
+        height:105%;
+    }
+    .education-col1-text{
+        width: 75%;
+        height: min-content;
+        font-size: 20px;
+        letter-spacing: 0.8px;
+    }
+    .education-col1-icon{
+        font-size: 30px;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+    .location{
+        margin-top: 7%;
+        /* display: none; */
+    }
+/* ------------------------------------------------------------------------------------------------ */
+    .Counter{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .counter-title-text{
+        margin-bottom: 50px;
+    }
+    .counters{
+        width: 100%;
+        height: 100%;
+        font-size: 11.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #counter-1, #counter-2, #counter-3, #counter-4{
+        width: 97%;
+        height: 60px;
+        margin-left: 30px;
+        font-size: 55px;
+
+    }
+    .counter-row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+    .contact{
+        width: 100%;
+        height: 950px;
+    }
+    .contact-row{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    #form-contact{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-email{
+        width: 60%;
+    }
+    #contact-email-button{
+        width: 47%;
+        margin-top: 30px;
+    }
+/* ------------------------------------------------------------------------------------------------ */
+
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-background-image-text-title{
+        margin-top: 50px;
+    }
+    .footer-background-image-text-buttons{
+        width: 50%;
+        text-decoration: none;
+    }
+
+
+/* --------------------------- */
+    .footer-menu-about{
+        width: 100%;
+        height: 1670px;
+    }
+    .footer-main-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-bottom-row{
+        width: 75%;
+        height: 1400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-col1, .footer-col2, .footer-col3, .footer-col4{
+        width: 90%;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .footer-input{
+        width: 90%;
+    }
+    .footer-input-btn-cl{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+    #footer-input-btn{
+        width: 150px;
+        padding-left: 80px;
+    }
+    
+    
+    .footer-icons{
+        width: 50%;
+        justify-content: space-around;
+    }
+}

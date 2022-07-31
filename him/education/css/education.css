@@ -1,0 +1,239 @@
+.education-business{
+    width: 100%;
+    height: 470px;
+}
+
+.education-title{
+    height: auto;
+}
+
+
+/* -------- rectangle -------- */
+.education-red-kv{
+    width: 100%;
+    color: #f5421c;
+    display: flex; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 0.87rem;
+    font-style: bold;
+    line-height: 1.25em;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.education-redLine1{
+    width: 11px;
+    height: 11px;
+    background: #ffafaff1;
+    float: left;
+    margin-top: 1.5px;
+}
+.education-redLine2{
+    width: 11px;
+    height: 11px;
+    background: #f96060f1;
+    float: left;
+    margin-top: 1.5px;
+}
+/* ---------------- */
+
+.education-title-text{
+    font-family: 'Calibri Light';
+    font-weight: 400;
+    color: #000000;
+    text-transform: none;
+    font-size: 2.89rem;
+    line-height: 1.1em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.education-information{
+    height: 440px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-card{
+    width: 1270px;
+    height: 350px;
+    /* border: 1px solid rgb(0, 255, 17); */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*-------- 1-ustun// bulk, student -------- */
+.education-col1{
+    width: 402px;
+    height: 340px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0), 0 -3px 30px 0 rgba(0, 0, 0, 0.14);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+.education-bulk-discouns{
+    width: 100%;
+    height: 170px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education-bulk-discouns:hover .education-col1-icon{
+    color: #f5421c;
+    transition: 0.5s;
+}
+
+.education-staff-student{
+    width: 100%;
+    height: 181px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education-staff-student:hover .education-col1-icon{
+    color: #f5421c;
+    transition: 0.5s;
+}
+
+
+/* --------- CONST ---------- */
+.education-col1-text{
+    width: 300px;
+    height: 160px;
+    border-bottom: 1.5px solid #d1d1d1;    
+}
+.education-col1-icon{
+    width: 30px;
+    height: 50px;
+    color: rgba(0,0,0,.2);
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: 0.4s;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.education-mini-title{
+    width: 100px;
+    font-size: 23px;
+    color: #f5421c;    
+}
+/* ------------------- */
+
+
+
+/*-------- 2-ustun// locations, diagnostic ------- */
+.education-col2{
+    width: 402px;
+    height: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0), 0 -3px 30px 0 rgba(0, 0, 0, 0.13);
+}
+
+.education-free-diagnostic{
+    width: 100%;
+    height: 170px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education-free-diagnostic:hover .education-col1-icon{
+    color: #f5421c;
+    transition: 0.5s;
+}
+
+.education-locations-nation{
+    width: 100%;
+    height: 180px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education-locations-nation:hover .education-col1-icon{
+    color: #f5421c;
+    transition: 0.5s;
+}
+
+
+/*-------- 3-ustun// monthly, quick -------- */
+.education-col3{
+    width: 402px;
+    height: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    box-shadow: 0 70px 20px 0 rgba(0, 0, 0, 0), 0 -3px 30px 0 rgba(0, 0, 0, 0.13);
+
+}
+
+.education-monthly-free{
+    width: 100%;
+    height: 170px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education-monthly-free:hover .education-col1-icon{
+    color: #f5421c;
+    transition: 0.5s;
+}
+
+.education-quick-quality{
+    width: 100%;
+    height: 180px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education-quick-quality:hover .education-col1-icon{
+    color: #f5421c;
+    transition: 0.5s;
+}
+
+
+/* <!------------ HAMKORLAR_ L O G O  -------------> */
+.partners{
+    width: 100%;
+    height: 170px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-logo{
+    width: 1300px;
+    height: 165px;
+    border-bottom: 1.5px solid rgba(0,0,0,0%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partners-images{
+    width: 199px;
+    height: 120px;
+}

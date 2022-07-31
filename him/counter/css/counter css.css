@@ -1,0 +1,186 @@
+/*------------- BUSSINES// section--------------- */
+.bussines-education{
+    width: 100%;
+    height: 220px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bussines-text{
+    width: 900px;
+    font-family: Calibri Light;
+    font-weight: 300;
+    color: #000000;
+    font-size: 1.89rem;
+    line-height: 1.2em;
+}
+
+.bussines-icon{
+    width: 50px;
+    font-size: 1.85rem;
+    color: rgb(70, 66, 71);
+    text-align: start;
+}
+
+.bussines-button{
+    width: 180px;
+}
+
+.bus-more-button{
+    width: 205px;
+    height: 70px;
+    border: none;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.945);
+    color: aliceblue;
+    font-family: Arial Rounded MT ;
+    font-size: 15px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.bus-more-button:hover{
+    background-color: rgb(255, 89, 0);
+    transition: all 0.8s;
+}
+
+
+
+
+/*------------- LOCATION// section--------------- */
+.location{
+    width: 100%;
+    height: 510px;
+}
+
+
+/*------------- COUNTER// section --------------- */
+.Counter{
+    height: 430px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.counter-row{
+    width: 100%;
+    height: 250px;
+}
+
+.counter-title{
+    width: 100%;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+}
+
+
+/* -------- rectangle -------- */
+.counter-red-kv{
+    width: 100%;
+    display: flex; 
+    color: #f5421c;
+    font-size: 0.87rem;
+    font-style: bold;
+    line-height: 1.25em;
+    letter-spacing: 0.5px;
+    justify-content: center;
+}
+.counter-redLine1{
+    width: 11px;
+    height: 11px;
+    background: #fb9090f1;
+    float: left;
+    margin-top: 1.5px;
+}
+.counter-redLine2{
+    width: 11px;
+    height: 11px;
+    background: #f95656f1;
+    float: left;
+    margin-top: 1.5px;
+}
+/* ---------------- */
+
+.counter-title-text{
+    font-family: Calibri Light;
+    font-weight: 400;
+    color: #000000;
+    text-transform: none;
+    font-size: 3rem;
+    line-height: 1.1em;
+    margin-top: 8px;
+}
+
+.counters{
+    width: 100%;
+    height: 160px;
+    margin-top: 15px;
+    font-family: Yu Gothic UI;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter-1{
+    width: 300px;
+    height: 80px;
+    border-right: 1.7px solid #c7c7c7;
+    color: #f5421c;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: Calibri Light;
+    text-align: center;
+    letter-spacing: 1.1px;
+}
+
+#counter-2{
+    width: 300px;
+    height: 80px;
+    border-right: 1.7px solid #c7c7c7;
+    color: rgb(245, 66, 28);
+    font-size: 70px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.1px;
+    font-family: Calibri Light;
+
+}
+
+#counter-3{
+    width: 300px;
+    height: 80px;
+    border-right: 1.7px solid #c7c7c7;
+    color: rgb(245, 66, 28);
+    font-size: 70px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.1px;
+    font-family: Calibri Light;
+
+}
+.counter-h3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#counter-4{
+    width: 300px;
+    height: 80px;
+    color: rgb(245, 66, 28);
+    font-size: 70px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.1px;
+    font-family: Calibri Light;
+}
+
+.counter-small-text{
+    margin-left: 6em;
+    color: rgb(70, 66, 71);
+}

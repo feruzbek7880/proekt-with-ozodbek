@@ -1,0 +1,91 @@
+#smartfix{
+    font-size: 27px;
+    cursor: pointer;
+}
+.header_menu{
+    z-index: 8;
+    position: absolute;
+    top: 130px;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(0,0,0,0.0%);
+    font-family: "Anek Latin";
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.header_menu_logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    width: 27%;
+}
+.header_menu_menues{
+    width: 70%;
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+.header_menu_menues div:hover{
+    cursor: pointer;
+    color: #f5421c;
+    transition: 0.5s;
+}
+
+.header_menu_menues_repair_menu{
+    display: none;
+    font-size: 17px;
+    padding: 7px;
+    text-align: center;
+    background-color: rgba(0,0,0,0%);
+    color: white;
+    width: 70px;
+    height: auto;
+    justify-content: center;
+}
+.header_menu_menues_repair_menu li{
+    margin-top: 10px;
+}
+.header_menu_menues_repair_menu_div:hover .header_menu_menues_repair_menu{
+    display: block;
+    padding-left: 1px;
+    transition: 0.5s;
+}
+.header_menu_menues_repair_menu li:hover{
+    color: #f5421c;
+    transition: 0.5s;
+}
+.header_menu_menues_services_menu_div:hover .header_menu_menues_repair_menu{
+    display: block;
+    transition: 0.5s;
+}
+.header_menu_menues_company_menu_div:hover .header_menu_menues_repair_menu{
+    display: block;
+    transition: 0.5s;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#twittericon{
+    color: #6eabff;
+}
+#facebookicon{
+    color: #0030ff;
+}
+#youtubeicon{
+    color: #f5421c;
+}
+#instagramicon{
+    color: #3765ff;
+}

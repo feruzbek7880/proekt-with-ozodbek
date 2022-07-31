@@ -1,0 +1,23 @@
+.repair_within{
+    width: 1920px;
+    height: 147px;
+    background: #f5421c;
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+    align-items: center;
+    font-family: "Anek Latin";
+}
+.repair_within_menu1{
+    width: 15%;
+}
+.repair_within_menu{
+    width: 15.2%;
+    font-size: 20px;
+    display: flex;
+}
+.repair_within_menu i{
+    font-size: 60px;
+    margin-right: 10px;
+    color: #252625;
+}

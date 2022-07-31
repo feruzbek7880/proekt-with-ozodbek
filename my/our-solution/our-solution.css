@@ -1,0 +1,193 @@
+.our_solution{
+    display: flex;
+    font-family: "Anek Latin";
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    height: 891px;
+    background-size: 100% 891px;
+    background-repeat: no-repeat;
+    background-image: url("images/our-solution-back.png");
+}
+.our_solution_containers{
+    display: flex;
+    width: 90%;
+    height: 891px;
+    justify-content: space-around;
+}
+.our_solution_phoneimg{
+    width: 234px;
+    height: 487px;
+    background-image: url("images/our-solution-phone-image.png");
+    background-repeat: no-repeat;
+    background-size: 234px 487px;
+    transform: rotatez(40deg);
+    border-radius: 23px;
+}
+.our_solution_container1{
+    padding-left: 130px
+}
+
+.our_solution_container1, .our_solution_container2{
+    border: solid 1px rgba(0,0,0,0%);
+    margin-top: 120px;
+    width: 40%;
+    height: 60%;
+}
+.our_solution_phone_pluses{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+    background-color: #f5421c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.5s;
+}
+.our_solution_phone_pluses:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.our_solution p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.our_solution_we_fix_ever p{
+    font-size: 39px;
+}
+.our_solution_text{
+    width: 90%;
+    font-size: 19px;
+}
+
+
+.our_solution_lower{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0,0,0,50%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.our_solution_lower h2{
+    margin-right: 15px;
+}
+.our_solution_lower i{
+    margin-right: 15px;
+}
+
+/*INTERNET  CODES*/
+.our_solution_lower_button{
+    z-index: 6;
+    color: white;
+    border: solid 1px #1e212d;
+    background-color: #1e212d;
+    width: 230px;
+    height: 60px;
+}
+
+.our_solution_lower_button a{
+    display: block;
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 13px;
+    font-family: "Anek Latin";
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.our_solution_lower_button a span{
+    position: relative;
+    z-index: 2;
+}
+
+.our_solution_lower_button a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f5421c;
+    transition: all .35s;
+}
+
+.our_solution_lower_button a:hover{
+    color: #fff;
+}
+
+.our_solution_lower_button a:hover:after{
+    width: 100%;
+}
+
+
+
+
+
+
+.our_solution_button{
+    margin-top: 30px;
+}
+/*INTERNET  CODES*/
+/*INTERNET  CODES*/
+.our_solution_button{
+    z-index: 6;
+    color: white;
+    border: solid 1px white;
+    background-color: rgba(0,0,0,0.0%);
+    width: 230px;
+    height: 60px;
+}
+
+.our_solution_button a{
+    display: block;
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+    font-family: "Anek Latin";
+    text-decoration: none;
+    color: white;
+    /*border: 2px solid #333;*/
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.our_solution_button a span{
+    position: relative;
+    z-index: 2;
+}
+
+.our_solution_button a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f5421c;
+    transition: all .35s;
+}
+
+.our_solution_button a:hover{
+    color: #fff;
+}
+
+.our_solution_button a:hover:after{
+    width: 100%;
+}
+/*INTERBET CODES*/

@@ -1,0 +1,372 @@
+@media screen and (max-width: 500px){
+    .container{
+        width: 500px;
+    }
+    .envato{
+        width: 67%;
+        height: 30px;
+        justify-content: space-between;
+        padding-right: 42px;
+    }
+    .envato_logo{
+        font-size: 20px;
+        margin-left: 4%;
+    }
+    .header_menu{
+        position: absolute;
+        justify-content: space-around;
+        top: 50px;
+        left: 0;
+        width: 500px;
+        height: 30px;
+    }
+    .karusel_with_text{
+        display: none;
+    }
+    #resp_bars{
+        display: block;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .header_menu_menues{
+        display: none;
+    }
+    #search_header , #search_slide_item{
+        position: static;
+        display: none;
+    }
+    .karusel{
+        z-index: 0;
+        position: static;
+        width: 500px;
+        height: 300px;
+        background-image: url("../karusel/karusel_images/responsive-karusel-pic1.jpg");
+        background-repeat: no-repeat;
+        background-size: 500px  300px;
+    }
+    .karusel img{
+        display: none;
+    }
+    .karusel_container{
+        height: 267px;
+        z-index: 0;
+        /*margin-top: 100px;*/
+    }
+    .smartfix_row{
+        z-index: 0;
+        width: 500px;
+        height: 900px;
+        background-size: 500px 900px;
+        border: none;
+    }
+    .smartfix_row_textside{
+        width: 350px;
+        margin-top: 0 ;
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+    .btn_next{
+        display: none;
+    }
+    .why_choose_us{
+        left: 12px;
+        top: 684px;
+        right: 10px;
+    }
+    .why_choose_us_row{
+        width: 360px;
+        margin-left: 10px;
+    }
+    .triangle-down{
+        position: absolute;
+        left: 17%;
+        top: 80%;
+    }
+    .repair_within{
+        width: 500px;
+        flex-direction: column;
+        justify-content: left;
+        height: 400px;
+    }
+    .repair_within_menu{
+        width: 100%;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .repair_within_menu1{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .select_device{
+        width: 500px;
+        height: 2100px;
+    }
+    .select_device_title{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    #select_device_title_get{
+        width: 500px;
+    }
+    .select_device_cards{
+        width: 500px;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+    }
+    .select_device_card{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .select_device_card_img{
+        width: 444px;
+        height: 234px;
+        background-size: 444px 234px;
+    }
+    .select_device_card_text{
+        width: 400px;
+        text-align: center;
+    }
+    .select_device_card_title{
+        text-align: left;
+    }
+    .select_device_modules{
+        margin-left: 30px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .select_device_modules_list li{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .our_services{
+        width: 500px;
+        height: 700px;
+        background-size: 500px 780px;
+    }
+    .our_services_cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .our_services_card{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .our_services_card_img1 , .our_services_card_img2{
+        width: 110px;
+        height: 160px;
+        background-size: 110px 160px;
+    }
+    .our_services_card_text{
+        font-size: 17px;
+    }
+    .our_services_card_text_link{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .our_solution{
+        width: 500px;
+        height: 800px;
+        background-size: 500px 800px;
+    }
+    .our_solution_phoneimg , .our_solution_phone_pluses , .our_solution_container2{
+        display: none;
+    }
+    .our_solution_containers{
+        display: flex;
+        justify-content: left;
+    }
+
+    .our_solution_container1{
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+
+    .our_solution_text{
+        width: 400px;
+    }
+    .our_solution_lower i{
+        display: none;
+    }
+    .our_solution_lower{
+        width: 500px;
+        height: 300px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center ;
+    }
+    .smartfix_news{
+        width: 500px;
+        height: 2100px;
+    }
+    .smartfix_news_cards{
+        width: 500px;
+        height: 2100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .smartfix_news_card{
+        width: 400px;
+        margin-bottom: 30px;
+    }
+    .smartfix_news_card_image{
+        height: 200px;
+        background-size: 100% 200px;
+    }
+    .have_questions{
+        width: 500px;
+        height: 960px;
+        padding-top: 40px;
+        background-size: 500px 1000px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../have-questions/images/have-question-res-back.png");
+    }
+    .have_questions_question{
+        width: 400px;
+        font-size: 25px;
+    }
+    .have_questions_title{
+        margin-top: 30px;
+    }
+    .have_questions_button{
+        margin-top: 60px;
+        color: black;
+        background-color: #c1c1c1;
+    }
+
+
+
+
+    .founders{
+        width: 500px;
+        height: 2000px;
+        background-size: 100px 200px ;
+    }
+    .founders_row{
+        position: static;
+        width: 490px;
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .founder_row_card{
+        position: static;
+        width: 400px;
+    }
+    .education-business{
+        height: 1500px;
+    }
+    .partners , .partners-logo , .partners-images{
+        opacity: 0;
+    }
+    .bussines-icon{
+        display: none;
+    }
+    .bussines-text{
+        font-size: 0.6rem;
+
+    }
+    .bussines-education{
+        width: 500px;
+        height: 150px;
+        text-align: center;
+        margin-top: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .education-card{
+        width: 500px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .location{
+        display: none;
+    }
+    .Counter{
+        width: 500px;
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .counter-title-text{
+        margin-bottom: 50px;
+    }
+    .counters{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .counter-row{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .contact{
+        width: 500px;
+        height: 1100px;
+        
+    }
+    .contact-row{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    #form-contact{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact-email-button{
+        width: 47%;
+        margin-top: 30px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-background-image-text-title{
+        margin-top: 120px;
+    }
+    .footer-menu-about{
+        width: 500px;
+        height: 1500px;
+    }
+    .footer-input{
+        width: 40px;
+    }
+    .footer-bottom-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-icons{
+        width: 50%;
+        justify-content: space-around;
+    }
+    
+}

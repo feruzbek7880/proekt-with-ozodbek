@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .karusel_text_title{
+            font-size: 50px;
+        }
+        #karusel_text_div1{
+            top: 0;
+        }
+        #karusel_text_div2{
+            top: 250px;
+        }
+        #karusel_text_div3{
+            top: 500px;
+        }
+        .karusel_text_div{
+            position: absolute;
+            transition: all 0.5s;
+            width: 500px;
+            color: white;
+            font-family: "Anek Latin";
+            height: 250px;
+            border: solid 1px rgba(0,0,0,0.0%);
+            background-color: rgba(0,0,0,0.0%);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .container{
+            width: 1920px;
+            height: 1090px;
+            background-color: #787874;
+        }
+        button{
+            padding: 15px;
+            color: white;
+            border: solid 1px white;
+            background-color: rgba(0,0,0,0.0%);
+            width: 200px;
+            height: 60px;
+        }
+        .karusel_with_text{
+            position: absolute;
+            top: 0;
+            width: 500px;
+            height: 250px;
+            overflow: hidden;
+        }
+        .bir{
+            position: absolute;
+            top: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="karusel_with_text">
+    <div class="karusel_text_div" id="karusel_text_div1">
+    <p class="karusel_text_title">
+        Broken smartphone?<br> We can help
+    </p> <!--karusel_text_title-->
+    <button class="karusel_text_button">Schedule repairing</button>
+</div> <!---karusel_text_div-->
+
+<div class="karusel_text_div" id="karusel_text_div2">
+    <p class="karusel_text_title">
+        Your touchscreen not working?
+    </p> <!--karusel_text_title-->
+    <button class="karusel_text_button">Here`s fix</button>
+</div> <!---karusel_text_div-->
+
+
+<div class="karusel_text_div" id="karusel_text_div3">
+    <p class="karusel_text_title">
+        Repairing your cellphone battery.
+    </p> <!--karusel_text_title-->
+    <button class="karusel_text_button">Find our location</button>
+</div> <!---karusel_text_div-->
+</div> <!--karusel_with_text-->
+
+<button onclick="next()" class="bir">NEXT</button>
+</div> <!----container-->
+<script>
+    let karusel_text_div1 = document.getElementById('karusel_text_div1')
+    let karusel_text_div2 = document.getElementById('karusel_text_div2')
+    let karusel_text_div3 = document.getElementById('karusel_text_div3')
+    let son = 0
+    function next(){
+        son++
+        if (son===1){
+            karusel_text_div1.style.top = -250+'px'
+            karusel_text_div2.style.top = 0
+            karusel_text_div3.style.top = 250+'px'
+        }
+        if (son===2){
+            karusel_text_div1.style.top = -500+'px'
+            karusel_text_div2.style.top = -250+"px"
+            karusel_text_div3.style.top = 0
+        }
+        if (son===3){
+            son=0
+        }
+        if (son===0){
+            karusel_text_div1.style.top = 0
+            karusel_text_div2.style.top = 250+'px'
+            karusel_text_div3.style.top = 500+'px'
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+.our_services{
+    width: 100%;
+    font-family: "Anek Latin";
+    height: 569px;
+    padding-top: 70px;
+    background-size: 100% 639px;
+    background-repeat: no-repeat;
+    background-image: url("images/background-ourservices.png");
+}
+.our_services_title_with_icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.our_services_title{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.our_services_cards_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.our_services_cards{
+    width: 80%;
+    height: 320px;
+    border: solid 1px rgba(0,0,0,0%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.our_services_card{
+    width: 45%;
+    box-shadow: 0 0 3px 0 #aba9ab;
+    height: 220px;
+    padding: 30px;
+    padding-left: 0;
+    background-color: white;
+}
+.our_services_card_img1{
+    float: left;
+    margin-right: 20px;
+    width: 156px;
+    height: 213px;
+    background-image: url("images/comestore.png");
+    background-repeat: no-repeat;
+    background-size: 156px 213px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.our_services_card_img1:hover{
+    background-image: url("images/comestore(hover).png");
+    transition: 0.5s;
+}
+.our_services_card_img2{
+    margin-right: 20px;
+    float: left;
+    width: 156px;
+    height: 213px;
+    background-image: url("images/mailin.png");
+    background-repeat: no-repeat;
+    background-size: 156px 213px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.our_services_card_img2:hover{
+    background-image: url("images/mailin(hover).png");
+    transition: 0.5s;
+}
+.our_services_card_text p{
+    margin-bottom: 20px;
+}
+.our_services_card_text{
+    font-size: 20px;
+}
+/*INTERNET CODES*/
+.our_services_card_text_link{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.our_services_card_text_link a {
+    color: #f5421c;
+    position: relative;
+    text-decoration: none;
+}
+.our_services_card_text_link a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+.our_services_card_text_link a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+/*INTERNET CODES*/

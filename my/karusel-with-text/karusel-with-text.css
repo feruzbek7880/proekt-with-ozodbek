@@ -1,0 +1,113 @@
+.karusel_text_title{
+    font-size: 50px;
+}
+#karusel_text_div1{
+    top: 0;
+}
+#karusel_text_div2{
+    top: 250px;
+}
+#karusel_text_div3{
+    top: 500px;
+}
+.karusel_text_div{
+    position: absolute;
+    transition: all 0.5s;
+    width: 500px;
+    color: white;
+    font-family: "Anek Latin";
+    height: 250px;
+    border: solid 1px rgba(0,0,0,0.0%);
+    background-color: rgba(0,0,0,0.0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.karusel_with_text{
+    z-index: 5;
+    position: absolute;
+    top: 250px;
+    left: 270px;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+}
+
+
+
+/*INTERNET  CODES*/
+.wrapper{
+    width: 230px;
+    height: 60px;
+    border: 3px solid;
+    color: white;
+    z-index: 6;
+    border-image: 
+    linear-gradient(
+        rgba(255, 60, 0, 0.777),
+        rgb(189, 58, 2),
+        rgb(27, 163, 43),
+        rgb(85, 100, 124),
+        rgb(81, 94, 121)) 1;
+        animation: rotate
+        3.5s
+        ease-in
+        infinite;
+    background-color: rgba(0,0,0,0.0%);
+}
+@keyframes rotate {
+    50%{
+        border-image: 
+        linear-gradient(
+            360deg,
+            rgba(255, 60, 0, 0.777),
+            rgb(189, 58, 2),
+            rgb(247, 5, 78),
+            rgb(85, 100, 124),
+            rgb(81, 94, 121)) 1;
+            animation: rotate
+            3.5s
+            ease-in
+            infinite;
+    }
+}
+
+.wrapper a{
+    display: block;
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 21px;
+    font-family: "Anek Latin";
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.wrapper a span{
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f5421c;
+    transition: all .35s;
+}
+
+.wrapper a:hover{
+    color: #fff;
+}
+
+.wrapper a:hover:after{
+    width: 100%;
+}
+/*INTERBET CODES*/
